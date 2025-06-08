@@ -1,0 +1,22 @@
+.shipping {
+  color: gray;
+  font-weight: bold;
+}
+
+a:visited {
+  color: black;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+button {
+  background-color: black;
+  text-transform: uppercase;
+  color: white;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
