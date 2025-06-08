@@ -77,3 +77,40 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 }
+
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+/*li:nth-child(even) {
+  color: red;
+}*/
+
+/* The one below won't work as the first
+child for article is a header*/
+article p:first-child {
+  color: red;
+}
+
+/* Styling Links*/
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  font-style: italic;
+}
+/* LVHA */
