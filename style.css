@@ -8,10 +8,18 @@ body {
   border-top: 10px solid #1098ad;
 }
 
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 nav {
@@ -154,6 +162,12 @@ a:hover {
 a:active {
   font-style: italic;
 }
+
+.post-img {
+  width: 50%;
+  height: auto;
+}
+
 /* LVHA */
 
 /* Resolving Conflicts */
