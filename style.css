@@ -26,6 +26,7 @@ body {
 
 nav {
   font-size: 20px;
+  text-align: center;
 }
 
 article {
@@ -186,6 +187,32 @@ nav a:link {
 
 nav a:link:last-child {
   margin-right: 0;
+}
+/* Pseudo elements */
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+p::first-line {
+  color: red;
+}
+
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "TRENDING";
+  font-size: 16px;
+  background-color: red;
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  right: -25px;
 }
 /* LVHA */
 
